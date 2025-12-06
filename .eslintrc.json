@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "plugin:sonarjs/recommended",
+    "next/core-web-vitals"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "sonarjs"
+  ],
+  "rules": {
+    "sonarjs/cognitive-complexity": [
+      "warn",
+      15
+    ],
+    "complexity": [
+      "warn",
+      10
+    ]
+  }
+}
